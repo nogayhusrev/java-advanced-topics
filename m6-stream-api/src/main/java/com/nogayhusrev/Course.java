@@ -1,9 +1,9 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 public class Course {
 
-    private String courseName;
-    private  int courseId;
+    private final String courseName;
+    private final int courseId;
 
     public Course(String courseName, int courseId) {
         this.courseName = courseName;

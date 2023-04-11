@@ -1,7 +1,7 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 public enum ProjectStatus {
-    OPEN,CLOSED,PROGRESS("IN PROGRESS");
+    OPEN, CLOSED, PROGRESS("IN PROGRESS");
 
     String status;
 

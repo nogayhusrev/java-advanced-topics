@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,8 +17,8 @@ public class Team<T extends Player> {
         return name;
     }
 
-    public boolean addPlayer(T player){
-        if (members.contains(player)){
+    public boolean addPlayer(T player) {
+        if (members.contains(player)) {
             System.out.println(player.getName() + " is already on the team");
             return false;
         } else {

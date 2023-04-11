@@ -4,7 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4a7dc6-d2c4-42c1-833c-c04a03044993" name="Changes" comment="" />
+    <list default="true" id="dc4a7dc6-d2c4-42c1-833c-c04a03044993" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/nogayhusrev/BaseBallPLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/nogayhusrev/FootballPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/nogayhusrev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/nogayhusrev/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/nogayhusrev/SoccerPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/src/main/java/com/nogayhusrev/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/nogayhusrev/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/nogayhusrev/CurrencyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/nogayhusrev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/nogayhusrev/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/src/main/java/com/nogayhusrev/ProjectStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/AppleGreenColorPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/AppleHeavyPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/ApplePredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/AppleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/ArraySorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/nogayhusrev/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/CheckMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/FunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/OrangeFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/OrangeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/tasks/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4-double-colon-operator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4-double-colon-operator/src/main/java/com/nogayhusrev/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4-double-colon-operator/src/main/java/com/nogayhusrev/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4-double-colon-operator/src/main/java/com/nogayhusrev/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4-double-colon-operator/src/main/java/com/nogayhusrev/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4-double-colon-operator/src/main/java/com/nogayhusrev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4-double-colon-operator/src/main/java/com/nogayhusrev/MyCLass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator-interface/src/main/java/com/nogayhusrev/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator-interface/src/main/java/com/nogayhusrev/AppleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator-interface/src/main/java/com/nogayhusrev/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator-interface/src/main/java/com/nogayhusrev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator-interface/src/main/java/com/nogayhusrev/MyComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/nogayhusrev/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/nogayhusrev/CreateStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/nogayhusrev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/nogayhusrev/StreamOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/CharString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/CollectorsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/DishData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/DishTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/EmployeeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/FindMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/Reducing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal-classes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal-classes/src/main/java/com/nogayhusrev/BigDecimalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal-classes/src/main/java/com/nogayhusrev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal-classes/src/main/java/com/nogayhusrev/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal-classes/src/main/java/com/nogayhusrev/Polindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-versions-updates/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-versions-updates/src/main/java/com/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-versions-updates/src/main/java/com/nogayhusrev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +91,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -21,7 +103,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2OIiqSGOFN8SwcD5kdQJisqxaFh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -30,12 +114,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/m8-new-versions-updates/src/main/java/com/nogayhusrev" />
+      <recent name="$PROJECT_DIR$/m8-new-versions-updates/src/main/java/com" />
+      <recent name="$PROJECT_DIR$/m7-optional-bigdecimal-classes/src/main/java/com/nogayhusrev" />
+      <recent name="$PROJECT_DIR$/m6-stream-api/src/main/java/com/tasks" />
+      <recent name="$PROJECT_DIR$/m6-stream-api/src/main/java/com/nogayhusrev" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +147,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681254686697</updated>
+      <workItem from="1681254687778" duration="197000" />
+      <workItem from="1681254887696" duration="115000" />
+      <workItem from="1681255005479" duration="312000" />
+      <workItem from="1681255319994" duration="286000" />
+      <workItem from="1681255609495" duration="76000" />
+      <workItem from="1681255687229" duration="405000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

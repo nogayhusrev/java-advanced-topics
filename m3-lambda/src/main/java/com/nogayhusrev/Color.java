@@ -1,5 +1,5 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 public enum Color {
-    RED,GREEN
+    RED, GREEN
 }

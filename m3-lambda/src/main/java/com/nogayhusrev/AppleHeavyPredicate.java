@@ -1,6 +1,6 @@
-package com.cydeo;
+package com.nogayhusrev;
 
-public class AppleHeavyPredicate implements ApplePredicate{
+public class AppleHeavyPredicate implements ApplePredicate {
     @Override
     public boolean test(Apple apple) {
         return apple.getWeight() > 200;

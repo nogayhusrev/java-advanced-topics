@@ -1,6 +1,6 @@
 package com.tasks;
 
-import com.cydeo.Color;
+import com.nogayhusrev.Color;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,10 +16,10 @@ public class OrangeTest {
         oranges.add(new Orange(140, Color.GREEN));
 
         System.out.println("Orange and colors");
-        prettyPrintOrange(oranges,orange -> {
+        prettyPrintOrange(oranges, orange -> {
             String result = "A";
             result += " ";
-            result += ((orange.getWeight() < 100)) ? "Light" : "Heavy" ;
+            result += ((orange.getWeight() < 100)) ? "Light" : "Heavy";
             result += " ";
             result += orange.getColor().toString();
             result += " ";
@@ -28,14 +28,13 @@ public class OrangeTest {
         });
 
         System.out.println("Oranges and weights");
-        prettyPrintOrange(oranges,orange -> "An Orange of " + orange.getWeight() + "g");
-
+        prettyPrintOrange(oranges, orange -> "An Orange of " + orange.getWeight() + "g");
 
 
     }
 
-    private static void prettyPrintOrange(List<Orange> oranges, OrangeFormatter orangeFormatter){
-        for(Orange orange : oranges){
+    private static void prettyPrintOrange(List<Orange> oranges, OrangeFormatter orangeFormatter) {
+        for (Orange orange : oranges) {
             String output = orangeFormatter.accept(orange);
             System.out.println(output);
         }

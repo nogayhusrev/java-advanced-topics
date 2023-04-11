@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

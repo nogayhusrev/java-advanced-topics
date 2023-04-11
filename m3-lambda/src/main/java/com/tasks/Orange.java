@@ -1,6 +1,7 @@
 package com.tasks;
 
-import com.cydeo.Color;
+
+import com.nogayhusrev.Color;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

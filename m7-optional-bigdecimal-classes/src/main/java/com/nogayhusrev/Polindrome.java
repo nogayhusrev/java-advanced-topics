@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 import java.util.Scanner;
 
@@ -13,12 +13,12 @@ public class Polindrome {
 
         temp = number;
 
-        while( number > 0){
+        while (number > 0) {
             raminder = number % 10;
             sum = (sum * 10) + raminder;
             number = number / 10;
         }
-        if(temp == sum)
+        if (temp == sum)
             System.out.println("Palindrome");
         else
             System.out.println("Not a Palindrome");

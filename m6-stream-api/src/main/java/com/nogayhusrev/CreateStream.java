@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 
 import java.util.Arrays;
@@ -21,17 +21,15 @@ public class CreateStream {
 
 
         List<Course> myCourses = Arrays.asList(
-                new Course("Java",100),
-                new Course("Ds",101),
-                new Course("Ms",102)
+                new Course("Java", 100),
+                new Course("Ds", 101),
+                new Course("Ms", 102)
         );
 
         Stream<Course> myCoursesStream = myCourses.stream();
 
         //Creating Stream Values
-        Stream<Integer> stream = Stream.of(1,2,3,4,5,6,7,8,3,4,234,12,3412,31,23,1231);
-
-
+        Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 3, 4, 234, 12, 3412, 31, 23, 1231);
 
 
     }

@@ -1,7 +1,6 @@
 package com.tasks;
 
 import java.util.List;
-import java.util.stream.Stream;
 
 public class EmployeeTest {
 
@@ -27,9 +26,6 @@ public class EmployeeTest {
                 .map(Employee::getEmpPhoneNumbers)
                 .flatMap(List::stream)
                 .forEach(System.out::println);
-
-
-
 
 
     }

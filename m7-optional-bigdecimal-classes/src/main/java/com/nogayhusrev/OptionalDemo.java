@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.Optional;
 public class OptionalDemo {
     public static void main(String[] args) {
 
-        List<Integer> number = Arrays.asList(2,3,5,7,8,2,234,23,5,2);
-        
+        List<Integer> number = Arrays.asList(2, 3, 5, 7, 8, 2, 234, 23, 5, 2);
+
         //empty() - isPresent()
         System.out.println("---------------empty() - isPresent()-------------");
         Optional<String> empty = Optional.empty();
@@ -30,8 +30,6 @@ public class OptionalDemo {
         //get
         System.out.println("---------------orElse()-------------");
         System.out.println(bigNumber.orElse(5));
-
-
 
 
     }

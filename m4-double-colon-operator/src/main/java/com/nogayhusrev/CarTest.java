@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
@@ -18,14 +18,13 @@ public class CarTest {
         System.out.println(supplier1.get().getModel());
 
         //One argument constructor
-        Function<Integer,Car> function = i -> new Car(i);
-        Function<Integer,Car> function1 = Car::new;
+        Function<Integer, Car> function = i -> new Car(i);
+        Function<Integer, Car> function1 = Car::new;
 
         //Two argument constructor
-        BiFunction<String,Integer,Car> biFunction = (str, i) -> new Car();
-        BiFunction<String,Integer,Car> biFunction1 = Car::new;
-        Car car = biFunction1.apply("Honda",2022);
-
+        BiFunction<String, Integer, Car> biFunction = (str, i) -> new Car();
+        BiFunction<String, Integer, Car> biFunction1 = Car::new;
+        Car car = biFunction1.apply("Honda", 2022);
 
 
     }

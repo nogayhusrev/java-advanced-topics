@@ -1,8 +1,8 @@
-package com.cydeo;
+package com.nogayhusrev;
 
-public class QuickSort implements Sorting{
- @Override
+public class QuickSort implements Sorting {
+    @Override
     public void sort() {
-     System.out.println("Quick Sorting");
+        System.out.println("Quick Sorting");
     }
 }

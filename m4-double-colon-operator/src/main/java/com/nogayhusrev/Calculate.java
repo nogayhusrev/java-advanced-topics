@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 @FunctionalInterface
 public interface Calculate {

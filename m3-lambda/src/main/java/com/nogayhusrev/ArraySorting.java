@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 public class ArraySorting {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class ArraySorting {
 
     }
 
-    private void sort(Sorting sorting){
+    private void sort(Sorting sorting) {
         sorting.sort();
     }
 }

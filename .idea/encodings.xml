@@ -3,6 +3,20 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/m1-generics/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/m1-generics/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2-enum/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m2-enum/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m3-lambda/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m3-lambda/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m4-double-colon-operator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m4-double-colon-operator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m5-comparator-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m5-comparator-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m6-stream-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m6-stream-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m7-optional-bigdecimal-classes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m7-optional-bigdecimal-classes/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m8-new-versions-updates/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/m8-new-versions-updates/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

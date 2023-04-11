@@ -1,6 +1,6 @@
-package com.cydeo;
+package com.nogayhusrev;
 
-public class AppleGreenColorPredicate implements ApplePredicate{
+public class AppleGreenColorPredicate implements ApplePredicate {
     @Override
     public boolean test(Apple apple) {
         return apple.getColor().equals(Color.GREEN);

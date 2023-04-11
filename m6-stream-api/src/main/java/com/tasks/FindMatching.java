@@ -11,18 +11,17 @@ public class FindMatching {
     public static void main(String[] args) {
 
 
-
         List<Dish> dishes = Arrays.asList(
-                new Dish("pork",false,800,Type.MEAT),
-                new Dish("beef",false,700,Type.MEAT),
-                new Dish("chicken",false,400,Type.MEAT),
-                new Dish("fries",true,530,Type.OTHER),
-                new Dish("rice",true,350,Type.OTHER),
-                new Dish("fruit",true,120,Type.OTHER),
-                new Dish("pizza",true,550,Type.OTHER),
-                new Dish("prawns",false,300,Type.FISH),
-                new Dish("salmon",false,450,Type.FISH),
-                new Dish("salmon",false,450,Type.FISH)
+                new Dish("pork", false, 800, Type.MEAT),
+                new Dish("beef", false, 700, Type.MEAT),
+                new Dish("chicken", false, 400, Type.MEAT),
+                new Dish("fries", true, 530, Type.OTHER),
+                new Dish("rice", true, 350, Type.OTHER),
+                new Dish("fruit", true, 120, Type.OTHER),
+                new Dish("pizza", true, 550, Type.OTHER),
+                new Dish("prawns", false, 300, Type.FISH),
+                new Dish("salmon", false, 450, Type.FISH),
+                new Dish("salmon", false, 450, Type.FISH)
         );
 
         //All matching
@@ -55,10 +54,10 @@ public class FindMatching {
 
         //Parallels Streams (Async)
         System.out.println("-------------Parallels Streams------------");
-        System.out.println(IntStream.range(0,100).parallel().findAny());
-        System.out.println(IntStream.range(0,100).parallel().findFirst());
-        
-        
+        System.out.println(IntStream.range(0, 100).parallel().findAny());
+        System.out.println(IntStream.range(0, 100).parallel().findFirst());
+
+
         //Min Max
         System.out.println("-------------Min And Max------------");
         dish = dishes.stream().min(Comparator.comparing(Dish::getCalories));
@@ -71,14 +70,14 @@ public class FindMatching {
         System.out.println("-------------Reduce------------");
         int result = dishes.stream()
                 .map(Dish::getCalories)
-                .reduce(0,(a,b)->a+b);
+                .reduce(0, (a, b) -> a + b);
         System.out.println("result = " + result);
 
         //Reduce2
         System.out.println("-------------Reduce2------------");
         result = dishes.stream()
                 .map(Dish::getCalories)
-                .reduce((a,b)->a+b)
+                .reduce((a, b) -> a + b)
                 .get();
         System.out.println("result = " + result);
 
@@ -86,15 +85,6 @@ public class FindMatching {
         System.out.println("-------------Count------------");
         long disCount = dishes.stream().count();
         System.out.println("disCount = " + disCount);
-
-
-
-
-
-
-
-
-
 
 
     }

@@ -1,6 +1,6 @@
-package com.cydeo;
+package com.nogayhusrev;
 
-public class BubbleSort implements Sorting{
+public class BubbleSort implements Sorting {
     @Override
     public void sort() {
         System.out.println("Bubble Sorting");

@@ -1,6 +1,6 @@
-package com.cydeo;
+package com.nogayhusrev;
 
-public class BaseBallPLayer extends Player{
+public class BaseBallPLayer extends Player {
 
     public BaseBallPLayer(String name) {
         super(name);

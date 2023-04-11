@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.nogayhusrev;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -9,7 +9,7 @@ public class BigDecimalDemo {
 
         double amount1 = 374.56;
         double amount2 = 374.26;
-        System.out.println(amount1-amount2); // 0.30
+        System.out.println(amount1 - amount2); // 0.30
 
         //BigDecimal
         System.out.println("-------------BigDecimal----------");

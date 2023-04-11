@@ -1,7 +1,8 @@
 package com.tasks;
 
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
 @Data // @Getter @Setter @ToString
 @AllArgsConstructor

@@ -1,9 +1,7 @@
-package com.cydeo;
-
-import java.lang.Enum;
+package com.nogayhusrev;
 
 public enum Currency {
-    PENNY(1),NICKLE(5),DIME(10),QUARTER(25);
+    PENNY(1), NICKLE(5), DIME(10), QUARTER(25);
 
     private int value;
 

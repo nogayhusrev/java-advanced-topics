@@ -27,8 +27,8 @@ public class UserTest {
 
     }
 
-    private static void print(List<User> users, Consumer<User> consumer){
-        for (User user : users){
+    private static void print(List<User> users, Consumer<User> consumer) {
+        for (User user : users) {
             consumer.accept(user);
         }
 
